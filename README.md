@@ -3,8 +3,8 @@
 This is an Minecraft mod for Forge, that adds new features to vanilla minecraft  
 The version of Forge and Minecraft are picked with the use of Optifine in mind
 
-Minecraft Version: 1.20.4
-Forge Version: 49.0.31
+Minecraft Version: 1.20.4  
+Forge Version: 49.0.31  
 
 ## Acknowledgments
 Raccoon Mayhem is written and maintained by Evanski. It is
@@ -16,7 +16,7 @@ and are remapped prior to distribution in compliance with the following EULAs
 [Minecraft ELUA](https://www.minecraft.net/en-us/eula)
 
 # How to install
-Place RaccoonMischief.jar into your plugin folder of your Paper-mc server.
+Place RaccoonMischief.jar into your mods folder.
 
 # Changelog
 See [Latest Features](https://github.com/EvanSkiStudios/Raccoon-Mischief/blob/master/Features/Features_Latest_.md) for full list of features
