@@ -1,5 +1,8 @@
 {
   "item.raccoonmayhem.sapphire": "Sapphire",
+  "item.raccoonmayhem.upgrade_shard": "Upgrade Shard",
 
-  "creativetab.raccoonmayhem_tab": "Raccoon Mayhem"
+  "creativetab.raccoonmayhem_tab": "Raccoon Mayhem",
+
+  "block.raccoonmayhem.glitch_block": "§kGlitch§r"
 }

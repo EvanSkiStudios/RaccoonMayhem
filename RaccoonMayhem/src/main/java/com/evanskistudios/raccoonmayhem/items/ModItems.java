@@ -2,6 +2,7 @@ package com.evanskistudios.raccoonmayhem.items;
 
 import com.evanskistudios.raccoonmayhem.RaccoonMayhem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -13,6 +14,11 @@ public class ModItems {
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
+
+    
+    public static final RegistryObject<Item> UPGRADESHARD = ITEMS.register("upgrade_shard", () -> new ItemEnchantedGlint(new Item.Properties()
+            .rarity(Rarity.EPIC)
+    ));
 
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire", () -> new Item(new Item.Properties()));
 }

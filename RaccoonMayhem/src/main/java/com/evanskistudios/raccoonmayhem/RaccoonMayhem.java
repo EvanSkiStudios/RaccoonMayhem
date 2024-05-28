@@ -1,10 +1,9 @@
 package com.evanskistudios.raccoonmayhem;
 
-import com.evanskistudios.raccoonmayhem.items.ModCreativeModeTabs;
+import com.evanskistudios.raccoonmayhem.blocks.ModBlocks;
 import com.evanskistudios.raccoonmayhem.items.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -35,6 +34,9 @@ public class RaccoonMayhem {
 
         //Load Items
         ModItems.register(modEventBus);
+
+        //Load Blocks
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

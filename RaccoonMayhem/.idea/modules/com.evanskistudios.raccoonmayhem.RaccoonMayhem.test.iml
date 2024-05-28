@@ -4,15 +4,19 @@
     <facet type="minecraft" name="Minecraft">
       <configuration>
         <autoDetectTypes>
-          <platformType>MCP</platformType>
-          <platformType>MIXIN</platformType>
           <platformType>FORGE</platformType>
+          <platformType>MIXIN</platformType>
+          <platformType>MCP</platformType>
         </autoDetectTypes>
         <projectReimportVersion>1</projectReimportVersion>
       </configuration>
     </facet>
   </component>
   <component name="McpModuleSettings">
-    <option name="srgType" value="SRG" />
+    <option name="mappingFile" value="D:\Minecraft\ModdingTools\Mod Development\IdeaProjects\_RaccoonMayhem\RaccoonMayhem\build\createMcpToSrg\output.tsrg" />
+    <option name="mcpVersion" value="parchment_2024.04.14-1.20.4" />
+    <option name="minecraftVersion" value="1.20.4" />
+    <option name="platformVersion" value="49.0.31" />
+    <option name="srgType" value="TSRG" />
   </component>
 </module>
