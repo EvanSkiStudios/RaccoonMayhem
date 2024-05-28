@@ -15,10 +15,8 @@ public class ModItems {
         ITEMS.register(eventBus);
     }
 
-    
+
     public static final RegistryObject<Item> UPGRADESHARD = ITEMS.register("upgrade_shard", () -> new ItemEnchantedGlint(new Item.Properties()
             .rarity(Rarity.EPIC)
     ));
-
-    public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire", () -> new Item(new Item.Properties()));
 }
