@@ -22,6 +22,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.UPGRADESHARD.get());
                         pOutput.accept(ModItems.SUPERMAGNET.get());
 
+                        pOutput.accept(ModItems.THROWABLESWORD.get());
+
                         pOutput.accept(ModBlocks.CHEESE_BLOCK.get());
                         pOutput.accept(ModBlocks.GLITCH_BLOCK.get());
                     })

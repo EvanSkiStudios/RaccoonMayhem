@@ -1,5 +1,6 @@
 package com.evanskistudios.raccoonmayhem;
 
+import com.evanskistudios.raccoonmayhem.VanilliaOverrides.VanillaOverrides;
 import com.evanskistudios.raccoonmayhem.blocks.ModBlocks;
 import com.evanskistudios.raccoonmayhem.items.ModItems;
 import com.mojang.logging.LogUtils;
@@ -28,6 +29,9 @@ public class RaccoonMayhem {
 
     public RaccoonMayhem() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        //Vanilla OverRides
+        VanillaOverrides.register(modEventBus);
 
         //Custom creative mode tab
         ModCreativeModeTabs.register(modEventBus);

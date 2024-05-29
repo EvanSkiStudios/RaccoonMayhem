@@ -1,9 +1,9 @@
 package com.evanskistudios.raccoonmayhem.items;
 
 import com.evanskistudios.raccoonmayhem.RaccoonMayhem;
+import com.evanskistudios.raccoonmayhem.VanilliaOverrides.ThrowableSwords.ThrowableSwords;
 import com.evanskistudios.raccoonmayhem.items.custom.SuperMagnetItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,5 +24,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> SUPERMAGNET = ITEMS.register("super_magnet", () -> new SuperMagnetItem(new Item.Properties()
             .durability(100)
+    ));
+
+    public static final RegistryObject<Item> THROWABLESWORD = ITEMS.register("throwable_sword", () -> new ThrowableSwords(
+            Tiers.WOOD, 1, 1, new Item.Properties()
     ));
 }

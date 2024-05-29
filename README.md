@@ -25,13 +25,24 @@ See [Latest Features](https://github.com/EvanSkiStudios/Raccoon-Mischief/blob/ma
 
 ## Bug Fixes
 
-## Commands
-
 ## Vanilla Changes
 Things That change vanilla features
+*(W.I.P) You are able to throw Swords like tridents
+
+## Items
+* Upgrade Shard
+* Cheese
+
+## Blocks
+* Glitch Block
+* Block of Cheese
 
 ## Recipes
+* A 2x2 of Cheese makes a Cheese Block
+* A cheese block can be broken down into 4 cheese
 
 ## Effects
 
 ## Enchantments
+
+## Commands
