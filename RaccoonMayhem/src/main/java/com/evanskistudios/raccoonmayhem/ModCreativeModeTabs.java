@@ -18,14 +18,14 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.raccoonmayhem_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         //Add items here, in order is order of tab
+                        pOutput.accept(ModItems.TACTICAL_DIRT.get());
                         pOutput.accept(ModItems.CHEESE.get());
                         pOutput.accept(ModItems.UPGRADESHARD.get());
                         pOutput.accept(ModItems.SUPERMAGNET.get());
 
-                        pOutput.accept(ModItems.THROWABLESWORD.get());
-
                         pOutput.accept(ModBlocks.CHEESE_BLOCK.get());
                         pOutput.accept(ModBlocks.GLITCH_BLOCK.get());
+                        pOutput.accept(ModBlocks.DIRT_SLAB.get());
                     })
                     .build()
     );

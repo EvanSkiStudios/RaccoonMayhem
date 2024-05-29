@@ -1,10 +1,14 @@
 {
+
+  "item.raccoonmayhem.tactical_dirt": "Tactical Dirt",
   "item.raccoonmayhem.cheese": "Cheese",
   "item.raccoonmayhem.upgrade_shard": "Upgrade Shard",
   "item.raccoonmayhem.super_magnet": "Super Magnet",
 
   "block.raccoonmayhem.cheese_block": "Block of Cheese",
   "block.raccoonmayhem.glitch_block": "§kGlitch§r",
+
+  "block.raccoonmayhem.dirt_slab": "Dirt Slab",
 
   "creativetab.raccoonmayhem_tab": "Raccoon Mayhem"
 }

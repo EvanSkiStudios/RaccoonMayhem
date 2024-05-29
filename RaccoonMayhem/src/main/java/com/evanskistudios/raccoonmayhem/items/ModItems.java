@@ -16,6 +16,8 @@ public class ModItems {
         ITEMS.register(eventBus);
     }
 
+    public static final RegistryObject<Item> TACTICAL_DIRT = ITEMS.register("tactical_dirt", () -> new Item(new Item.Properties().food(ModFoods.TACTICAL_DIRT)));
+
     public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> UPGRADESHARD = ITEMS.register("upgrade_shard", () -> new ItemEnchantedGlint(new Item.Properties()
@@ -29,4 +31,7 @@ public class ModItems {
     public static final RegistryObject<Item> THROWABLESWORD = ITEMS.register("throwable_sword", () -> new ThrowableSwords(
             Tiers.WOOD, 1, 1, new Item.Properties()
     ));
+
+
+
 }
