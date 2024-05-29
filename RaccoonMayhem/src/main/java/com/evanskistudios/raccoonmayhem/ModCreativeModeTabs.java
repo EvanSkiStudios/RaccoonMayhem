@@ -14,13 +14,15 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RaccoonMayhem.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> RACCOONMAYHEM_TAB = CREATIVE_MODE_TABS.register("raccoonmayhem_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.GLITCH_BLOCK.get()))
                     .title(Component.translatable("creativetab.raccoonmayhem_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         //Add items here, in order is order of tab
-                        pOutput.accept(ModItems.SAPPHIRE.get());
+                        pOutput.accept(ModItems.CHEESE.get());
                         pOutput.accept(ModItems.UPGRADESHARD.get());
+                        pOutput.accept(ModItems.SUPERMAGNET.get());
 
+                        pOutput.accept(ModBlocks.CHEESE_BLOCK.get());
                         pOutput.accept(ModBlocks.GLITCH_BLOCK.get());
                     })
                     .build()

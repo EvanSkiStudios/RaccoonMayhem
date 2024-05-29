@@ -34,4 +34,5 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> GLITCH_BLOCK = registerBlock("glitch_block", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> CHEESE_BLOCK = registerBlock("cheese_block", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.SPONGE)));
 }

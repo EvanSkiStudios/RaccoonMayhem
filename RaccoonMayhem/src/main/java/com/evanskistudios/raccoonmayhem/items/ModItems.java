@@ -1,6 +1,7 @@
 package com.evanskistudios.raccoonmayhem.items;
 
 import com.evanskistudios.raccoonmayhem.RaccoonMayhem;
+import com.evanskistudios.raccoonmayhem.items.custom.SuperMagnetItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -15,8 +16,13 @@ public class ModItems {
         ITEMS.register(eventBus);
     }
 
+    public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> UPGRADESHARD = ITEMS.register("upgrade_shard", () -> new ItemEnchantedGlint(new Item.Properties()
             .rarity(Rarity.EPIC)
+    ));
+
+    public static final RegistryObject<Item> SUPERMAGNET = ITEMS.register("super_magnet", () -> new SuperMagnetItem(new Item.Properties()
+            .durability(100)
     ));
 }

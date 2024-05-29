@@ -1,8 +1,10 @@
 {
-  "item.raccoonmayhem.sapphire": "Sapphire",
+  "item.raccoonmayhem.cheese": "Cheese",
   "item.raccoonmayhem.upgrade_shard": "Upgrade Shard",
+  "item.raccoonmayhem.super_magnet": "Super Magnet",
 
-  "creativetab.raccoonmayhem_tab": "Raccoon Mayhem",
+  "block.raccoonmayhem.cheese_block": "Block of Cheese",
+  "block.raccoonmayhem.glitch_block": "§kGlitch§r",
 
-  "block.raccoonmayhem.glitch_block": "§kGlitch§r"
+  "creativetab.raccoonmayhem_tab": "Raccoon Mayhem"
 }

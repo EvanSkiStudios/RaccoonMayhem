@@ -53,7 +53,7 @@ public class RaccoonMayhem {
     // Add item / block to creative tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.SAPPHIRE);
+            //event.accept(ModItems.SAPPHIRE);
         }
     }
 
