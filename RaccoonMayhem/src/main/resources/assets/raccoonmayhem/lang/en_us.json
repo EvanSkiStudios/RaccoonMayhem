@@ -2,6 +2,9 @@
 
   "item.raccoonmayhem.tactical_dirt": "Tactical Dirt",
   "item.raccoonmayhem.cheese": "Cheese",
+
+  "item.raccoonmayhem.charcoal_block": "Block of Charcoal",
+
   "item.raccoonmayhem.upgrade_shard": "Upgrade Shard",
   "item.raccoonmayhem.super_magnet": "Super Magnet",
 
@@ -9,6 +12,11 @@
   "block.raccoonmayhem.glitch_block": "§kGlitch§r",
 
   "block.raccoonmayhem.dirt_slab": "Dirt Slab",
+
+  "item.raccoonmayhem.ruby": "Ruby",
+  "block.raccoonmayhem.ruby_ore": "Ruby Ore",
+  "block.raccoonmayhem.ruby_block": "Block of Ruby",
+  "block.raccoonmayhem.deepslate_ruby_ore": "Deepslate Ruby Ore",
 
   "creativetab.raccoonmayhem_tab": "Raccoon Mayhem"
 }

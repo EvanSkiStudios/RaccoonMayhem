@@ -16,7 +16,9 @@ public class VanillaOverrides {
         VANILLA_ITEMS.register(eventBus);
     }
 
+    /*
     public static final RegistryObject<Item> DIAMOND_SWORD = VANILLA_ITEMS.register("diamond_sword", () -> new ThrowableSwords(
             Tiers.WOOD, 1, 1, new Item.Properties()
     ));
+     */
 }

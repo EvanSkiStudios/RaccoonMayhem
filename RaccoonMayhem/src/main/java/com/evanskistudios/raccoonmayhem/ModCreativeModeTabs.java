@@ -20,12 +20,21 @@ public class ModCreativeModeTabs {
                         //Add items here, in order is order of tab
                         pOutput.accept(ModItems.TACTICAL_DIRT.get());
                         pOutput.accept(ModItems.CHEESE.get());
+                        pOutput.accept(ModBlocks.CHEESE_BLOCK.get());
+
                         pOutput.accept(ModItems.UPGRADESHARD.get());
                         pOutput.accept(ModItems.SUPERMAGNET.get());
 
-                        pOutput.accept(ModBlocks.CHEESE_BLOCK.get());
+                        pOutput.accept(ModItems.RUBY.get());
+                        pOutput.accept(ModBlocks.RUBY_BLOCK.get());
+                        pOutput.accept(ModBlocks.RUBY_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
+
                         pOutput.accept(ModBlocks.GLITCH_BLOCK.get());
+
                         pOutput.accept(ModBlocks.DIRT_SLAB.get());
+
+                        pOutput.accept(ModItems.CHARCOAL_BLOCK.get());
                     })
                     .build()
     );
