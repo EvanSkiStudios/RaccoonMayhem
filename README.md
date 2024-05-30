@@ -1,15 +1,15 @@
 # Evanski's RaccoonMayhem Minecraft Mod
-
-This is an Minecraft mod for Forge, that adds new features to vanilla minecraft  
-The version of Forge and Minecraft are picked with the use of Optifine in mind
-
-Minecraft Version: 1.20.4  
-Forge Version: 49.0.31  
+This is an Minecraft mod for Forge, that adds new features to vanilla minecraft    
+This is mainly made for my friends and I to play with, if you see features similar to other mods its because I like those features but dont want to download a mod pack with this mod for us all to play with
 
 ## Acknowledgments
 Raccoon Mayhem is written and maintained by Evanski. It is
 released as [All Rights Reserved](LICENSE).
-
+  
+Minecraft Version: 1.20.4  
+Forge Version: 49.0.31  
+The version of Forge and Minecraft are picked with the use of Optifine in mind  
+  
 The use of the mojang mappings is for development purposes only,  
 and are remapped prior to distribution in compliance with the following EULAs  
 [Mappings ELUA](https://gist.github.com/Dinnerbone/07b20a9f02e50a569217df6449cc1185/#file-gistfile1-txt)
@@ -26,7 +26,7 @@ See [Latest Features](https://github.com/EvanSkiStudios/Raccoon-Mischief/blob/ma
 ## Bug Fixes
 
 ## Vanilla Changes
-Things That change vanilla features
+Things That change vanilla features  
 *(W.I.P) You are able to throw Swords like tridents
 
 ## Items
