@@ -31,6 +31,20 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.DEEPSLATE_RUBY_ORE.get(),
                 block -> createOreDrop(ModBlocks.DEEPSLATE_RUBY_ORE.get(), ModItems.RUBY.get()));
 
+
+        this.dropSelf(ModBlocks.DIRT_STAIRS.get());
+        this.dropSelf(ModBlocks.DIRT_BUTTON.get());
+        this.dropSelf(ModBlocks.DIRT_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.DIRT_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.DIRT_FENCE.get());
+        this.dropSelf(ModBlocks.DIRT_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.DIRT_WALL.get());
+
+        this.add(ModBlocks.DIRT_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DIRT_SLAB.get()));
+        this.add(ModBlocks.DIRT_DOOR.get(),
+                block -> createDoorTable(ModBlocks.DIRT_DOOR.get()));
+
     }
 
     @Override

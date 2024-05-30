@@ -1,22 +1,31 @@
 {
 
   "item.raccoonmayhem.tactical_dirt": "Tactical Dirt",
+
   "item.raccoonmayhem.cheese": "Cheese",
+  "block.raccoonmayhem.cheese_block": "Block of Cheese",
 
   "item.raccoonmayhem.charcoal_block": "Block of Charcoal",
 
   "item.raccoonmayhem.upgrade_shard": "Upgrade Shard",
   "item.raccoonmayhem.super_magnet": "Super Magnet",
 
-  "block.raccoonmayhem.cheese_block": "Block of Cheese",
   "block.raccoonmayhem.glitch_block": "§kGlitch§r",
-
-  "block.raccoonmayhem.dirt_slab": "Dirt Slab",
 
   "item.raccoonmayhem.ruby": "Ruby",
   "block.raccoonmayhem.ruby_ore": "Ruby Ore",
   "block.raccoonmayhem.ruby_block": "Block of Ruby",
   "block.raccoonmayhem.deepslate_ruby_ore": "Deepslate Ruby Ore",
+
+  "block.raccoonmayhem.dirt_stair": "Dirt Stairs",
+  "block.raccoonmayhem.dirt_slab": "Dirt Slab",
+  "block.raccoonmayhem.dirt_button": "Dirt Button",
+  "block.raccoonmayhem.dirt_pressure_plate": "Dirt Pressure Plate",
+  "block.raccoonmayhem.dirt_fence": "Dirt Fence",
+  "block.raccoonmayhem.dirt_fence_gate": "Dirt Fence Gate",
+  "block.raccoonmayhem.dirt_wall": "Dirt Wall",
+  "block.raccoonmayhem.dirt_door": "Dirt Door",
+  "block.raccoonmayhem.dirt_trapdoor": "Dirt Trapdoor",
 
   "creativetab.raccoonmayhem_tab": "Raccoon Mayhem"
 }

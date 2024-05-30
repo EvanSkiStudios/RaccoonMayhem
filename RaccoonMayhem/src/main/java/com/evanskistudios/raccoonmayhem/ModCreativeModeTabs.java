@@ -30,11 +30,22 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.RUBY_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
 
-                        pOutput.accept(ModBlocks.GLITCH_BLOCK.get());
-
+                        pOutput.accept(ModBlocks.DIRT_STAIRS.get());
                         pOutput.accept(ModBlocks.DIRT_SLAB.get());
+                        pOutput.accept(ModBlocks.DIRT_WALL.get());
+                        pOutput.accept(ModBlocks.DIRT_FENCE.get());
+                        pOutput.accept(ModBlocks.DIRT_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.DIRT_DOOR.get());
+                        pOutput.accept(ModBlocks.DIRT_TRAPDOOR.get());
+                        pOutput.accept(ModBlocks.DIRT_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.DIRT_BUTTON.get());
 
+
+                        pOutput.accept(ModBlocks.GLITCH_BLOCK.get());
                         pOutput.accept(ModItems.CHARCOAL_BLOCK.get());
+
+
+
                     })
                     .build()
     );

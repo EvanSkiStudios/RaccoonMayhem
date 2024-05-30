@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "raccoonmayhem:block/dirt_pressure_plate"
+    },
+    "powered=true": {
+      "model": "raccoonmayhem:block/dirt_pressure_plate_down"
+    }
+  }
+}

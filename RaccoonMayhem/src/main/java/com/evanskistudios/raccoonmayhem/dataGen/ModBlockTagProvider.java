@@ -36,5 +36,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                         ModBlocks.RUBY_ORE.get(),
                         ModBlocks.DEEPSLATE_RUBY_ORE.get()
                 );
+
+        this.tag(BlockTags.FENCES).add(ModBlocks.DIRT_FENCE.get());
+        this.tag(BlockTags.FENCE_GATES).add(ModBlocks.DIRT_FENCE_GATE.get());
+        this.tag(BlockTags.WALLS).add(ModBlocks.DIRT_WALL.get());
     }
 }

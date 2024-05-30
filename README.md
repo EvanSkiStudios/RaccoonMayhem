@@ -32,14 +32,20 @@ Things That change vanilla features
 ## Items
 * Upgrade Shard
 * Cheese
+* Ruby
 
 ## Blocks
 * Glitch Block
 * Block of Cheese
+* Block of Ruby
+* Ruby Ore / deepslate Ore
+* Dirt Stairs, Walls, Fences, Button, pressure plate, Slabs
 
 ## Recipes
 * A 2x2 of Cheese makes a Cheese Block
 * A cheese block can be broken down into 4 cheese
+* Rubies can be minned like vanillia ores
+* Dirt blocks can be crafted like wood/stone ones but with dirt
 
 ## Effects
 
