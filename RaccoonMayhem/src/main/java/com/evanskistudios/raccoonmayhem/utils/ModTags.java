@@ -19,6 +19,7 @@ public class ModTags {
     }
 
     public static class Items {
+        public static final TagKey<Item> MATERIAL_SEEDS = tag("material_seeds");
 
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(RaccoonMayhem.MOD_ID, name));

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_ruby": {
+    "has_dirt": {
       "conditions": {
         "items": [
           {
             "items": [
-              "raccoonmayhem:ruby"
+              "minecraft:dirt"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "raccoonmayhem:ruby"
+        "recipe": "raccoonmayhem:dirt_slab"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -23,12 +23,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_ruby"
+      "has_dirt"
     ]
   ],
   "rewards": {
     "recipes": [
-      "raccoonmayhem:ruby"
+      "raccoonmayhem:dirt_slab"
     ]
   }
 }

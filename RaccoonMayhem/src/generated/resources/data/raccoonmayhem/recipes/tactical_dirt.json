@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "tag": "raccoonmayhem:material_seeds"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "raccoonmayhem:tactical_dirt"
+  }
+}

@@ -3,10 +3,13 @@ package com.evanskistudios.raccoonmayhem.dataGen;
 import com.evanskistudios.raccoonmayhem.RaccoonMayhem;
 import com.evanskistudios.raccoonmayhem.blocks.ModBlocks;
 import com.evanskistudios.raccoonmayhem.items.ModItems;
+import com.evanskistudios.raccoonmayhem.utils.ModTags;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.List;
@@ -34,8 +37,93 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RUBY.get(), 9)
                 .requires(ModBlocks.RUBY_BLOCK.get())
-                .unlockedBy(getHasName(ModBlocks.RUBY_BLOCK.get()), has(ModBlocks.RUBY_BLOCK.get()))
+                .unlockedBy(getHasName(ModItems.RUBY.get()), has(ModItems.RUBY.get()))
                 .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CHEESE_BLOCK.get())
+                .pattern("CC")
+                .pattern("CC")
+                .define('C', ModItems.CHEESE.get())
+                .unlockedBy(getHasName(ModItems.CHEESE.get()), has(ModItems.CHEESE.get())) //When recipe shows in recipe book
+                .save(pRecipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CHEESE.get(), 4)
+                .requires(ModBlocks.CHEESE_BLOCK.get())
+                .unlockedBy(getHasName(ModItems.CHEESE.get()), has(ModItems.CHEESE.get()))
+                .save(pRecipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.TACTICAL_DIRT.get(), 1)
+                .requires(Blocks.DIRT)
+                .requires(ModTags.Items.MATERIAL_SEEDS)
+                .unlockedBy(getHasName(Blocks.DIRT), has(Blocks.DIRT))
+                .save(pRecipeOutput);
+
+
+        //region < Dirt Extras >
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.DIRT_BUTTON.get(), 1)
+                .requires(Blocks.DIRT)
+                .unlockedBy(getHasName(Blocks.DIRT), has(Blocks.DIRT))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DIRT_STAIRS.get(), 4)
+                .pattern("D  ")
+                .pattern("DD ")
+                .pattern("DDD")
+                .define('D', Blocks.DIRT)
+                .unlockedBy(getHasName(Blocks.DIRT), has(Blocks.DIRT))
+                .save(pRecipeOutput);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DIRT_TRAPDOOR.get(), 2)
+                .pattern("DDD")
+                .pattern("DDD")
+                .define('D', Blocks.DIRT)
+                .unlockedBy(getHasName(Blocks.DIRT), has(Blocks.DIRT))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DIRT_DOOR.get(), 2)
+                .pattern("DD")
+                .pattern("DD")
+                .pattern("DD")
+                .define('D', Blocks.DIRT)
+                .unlockedBy(getHasName(Blocks.DIRT), has(Blocks.DIRT))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DIRT_PRESSURE_PLATE.get(), 1)
+                .pattern("DD")
+                .define('D', Blocks.DIRT)
+                .unlockedBy(getHasName(Blocks.DIRT), has(Blocks.DIRT))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DIRT_FENCE.get(), 3)
+                .pattern("DSD")
+                .pattern("DSD")
+                .define('D', Blocks.DIRT)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Blocks.DIRT), has(Blocks.DIRT))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DIRT_FENCE_GATE.get(), 1)
+                .pattern("SDS")
+                .pattern("SDS")
+                .define('D', Blocks.DIRT)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Blocks.DIRT), has(Blocks.DIRT))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DIRT_SLAB.get(), 6)
+                .pattern("DDD")
+                .define('D', Blocks.DIRT)
+                .unlockedBy(getHasName(Blocks.DIRT), has(Blocks.DIRT))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DIRT_WALL.get(), 6)
+                .pattern("D D")
+                .pattern("DDD")
+                .define('D', Blocks.DIRT)
+                .unlockedBy(getHasName(Blocks.DIRT), has(Blocks.DIRT))
+                .save(pRecipeOutput);
+        //endregion
     }
 
     protected static void oreSmelting(RecipeOutput pRecipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup) {

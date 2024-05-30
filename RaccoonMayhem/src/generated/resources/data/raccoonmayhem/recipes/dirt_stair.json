@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "pattern": [
+    "D  ",
+    "DD ",
+    "DDD"
+  ],
+  "result": {
+    "count": 4,
+    "item": "raccoonmayhem:dirt_stair"
+  }
+}

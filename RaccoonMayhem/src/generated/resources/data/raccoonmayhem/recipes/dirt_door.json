@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "pattern": [
+    "DD",
+    "DD",
+    "DD"
+  ],
+  "result": {
+    "count": 2,
+    "item": "raccoonmayhem:dirt_door"
+  }
+}

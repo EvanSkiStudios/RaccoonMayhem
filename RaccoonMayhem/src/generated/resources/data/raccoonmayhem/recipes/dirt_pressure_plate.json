@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "pattern": [
+    "DD"
+  ],
+  "result": {
+    "item": "raccoonmayhem:dirt_pressure_plate"
+  }
+}

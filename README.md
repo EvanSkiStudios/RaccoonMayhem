@@ -34,6 +34,9 @@ Things That change vanilla features
 * Cheese
 * Ruby
 
+## Food
+* Tactical Dirt > same stats as a Baked potato > crafted with dirt and any seeds
+
 ## Blocks
 * Glitch Block
 * Block of Cheese
