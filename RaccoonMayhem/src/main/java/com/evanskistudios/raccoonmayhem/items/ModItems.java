@@ -1,7 +1,7 @@
 package com.evanskistudios.raccoonmayhem.items;
 
 import com.evanskistudios.raccoonmayhem.RaccoonMayhem;
-import com.evanskistudios.raccoonmayhem.VanilliaOverrides.ThrowableSwords.ThrowableSwords;
+import com.evanskistudios.raccoonmayhem.vanillaOverwrites.ThrowableSwords.ThrowableSwords;
 import com.evanskistudios.raccoonmayhem.items.custom.FuelItem;
 import com.evanskistudios.raccoonmayhem.items.custom.SuperMagnetItem;
 import net.minecraft.world.item.*;

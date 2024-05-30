@@ -128,3 +128,5 @@ Temporary Items
 .apdisk
 
 /RaccoonMayhem/run
+/RaccoonMayhem/run-data
+/RaccoonMayhem/src/generated/resources/.cache

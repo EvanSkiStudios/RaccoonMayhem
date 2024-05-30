@@ -1,6 +1,6 @@
 package com.evanskistudios.raccoonmayhem;
 
-import com.evanskistudios.raccoonmayhem.VanilliaOverrides.VanillaOverrides;
+import com.evanskistudios.raccoonmayhem.vanillaOverwrites.VanillaOverrides;
 import com.evanskistudios.raccoonmayhem.blocks.ModBlocks;
 import com.evanskistudios.raccoonmayhem.items.ModItems;
 import com.mojang.logging.LogUtils;
