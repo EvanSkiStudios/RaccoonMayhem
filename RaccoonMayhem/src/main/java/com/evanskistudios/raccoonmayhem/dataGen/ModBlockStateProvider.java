@@ -16,6 +16,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        blockWithItem(ModBlocks.CHARCOAL_BLOCK);
         blockWithItem(ModBlocks.CHEESE_BLOCK);
 
         blockWithItem(ModBlocks.RUBY_BLOCK);

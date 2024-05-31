@@ -2,7 +2,6 @@ package com.evanskistudios.raccoonmayhem.blocks;
 
 import com.evanskistudios.raccoonmayhem.RaccoonMayhem;
 import com.evanskistudios.raccoonmayhem.items.ModItems;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -30,10 +29,17 @@ public class ModBlocks {
         return toReturn; //returns
     }
 
+
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);
     }
 
+
+    public static final RegistryObject<Block> CHARCOAL_BLOCK = registerBlock("charcoal_block",
+            () -> new Block(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.COAL_BLOCK)
+            )
+    );
 
     public static final RegistryObject<Block> GLITCH_BLOCK = registerBlock("glitch_block",
             () -> new Block(
@@ -75,7 +81,7 @@ public class ModBlocks {
 
     public static final RegistryObject<SlabBlock> DIRT_SLAB = registerBlock("dirt_slab",
             () -> new SlabBlock(
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_SLAB).sound(SoundType.GRAVEL)
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.DIRT).sound(SoundType.GRAVEL)
             )
     );
 

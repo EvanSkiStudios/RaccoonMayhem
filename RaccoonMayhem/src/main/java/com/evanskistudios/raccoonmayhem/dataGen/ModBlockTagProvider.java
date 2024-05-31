@@ -29,7 +29,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(
                         ModBlocks.RUBY_BLOCK.get(),
                         ModBlocks.RUBY_ORE.get(),
-                        ModBlocks.DEEPSLATE_RUBY_ORE.get()
+                        ModBlocks.DEEPSLATE_RUBY_ORE.get(),
+
+                        ModBlocks.CHARCOAL_BLOCK.get()
                 );
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)

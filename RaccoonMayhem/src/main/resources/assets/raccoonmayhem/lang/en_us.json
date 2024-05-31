@@ -5,7 +5,9 @@
   "item.raccoonmayhem.cheese": "Cheese",
   "block.raccoonmayhem.cheese_block": "Block of Cheese",
 
-  "item.raccoonmayhem.charcoal_block": "Block of Charcoal",
+  "item.raccoonmayhem.cake_slice": "Cake Slice",
+
+  "block.raccoonmayhem.charcoal_block": "Block of Charcoal",
 
   "item.raccoonmayhem.upgrade_shard": "Upgrade Shard",
   "item.raccoonmayhem.super_magnet": "Super Magnet",

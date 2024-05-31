@@ -24,10 +24,13 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.RUBY);
-        simpleItem(ModItems.CHARCOAL_BLOCK);
+
         simpleFoodItem(ModItems.CHEESE);
+        simpleFoodItem(ModItems.CAKE_SLICE);
         simpleItem(ModItems.SUPERMAGNET);
         simpleItem(ModItems.UPGRADESHARD);
+
+        ItemAsBlock(ModItems.CHARCOAL_BLOCK_ITEM, ModBlocks.CHARCOAL_BLOCK);
 
         fenceItemVanillaTexture(ModBlocks.DIRT_FENCE, Blocks.DIRT);
         buttonItemVanillaTexture(ModBlocks.DIRT_BUTTON, Blocks.DIRT);
@@ -107,5 +110,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(RaccoonMayhem.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder ItemAsBlock(RegistryObject<Item> item, RegistryObject<Block> baseBlock) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation(RaccoonMayhem.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
     }
 }

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_ruby_ore": {
+    "has_dirt": {
       "conditions": {
         "items": [
           {
             "items": [
-              "raccoonmayhem:ruby_ore"
+              "minecraft:dirt"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "raccoonmayhem:ruby_from_smelting_ruby_ore"
+        "recipe": "minecraft:dirt"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -23,12 +23,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_ruby_ore"
+      "has_dirt"
     ]
   ],
   "rewards": {
     "recipes": [
-      "raccoonmayhem:ruby_from_smelting_ruby_ore"
+      "minecraft:dirt"
     ]
   }
 }

@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.TACTICAL_DIRT.get());
                         pOutput.accept(ModItems.CHEESE.get());
                         pOutput.accept(ModBlocks.CHEESE_BLOCK.get());
+                        pOutput.accept(ModItems.CAKE_SLICE.get());
 
                         pOutput.accept(ModItems.UPGRADESHARD.get());
                         pOutput.accept(ModItems.SUPERMAGNET.get());
@@ -42,9 +43,7 @@ public class ModCreativeModeTabs {
 
 
                         pOutput.accept(ModBlocks.GLITCH_BLOCK.get());
-                        pOutput.accept(ModItems.CHARCOAL_BLOCK.get());
-
-
+                        pOutput.accept(ModItems.CHARCOAL_BLOCK_ITEM.get());
 
                     })
                     .build()

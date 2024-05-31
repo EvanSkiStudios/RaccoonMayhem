@@ -15,8 +15,8 @@ import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import java.util.List;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
-    private static final List<ItemLike> RUBY_SMELTABLES = List.of(ModItems.RUBY.get(),
-            ModBlocks.RUBY_ORE.get(), ModBlocks.DEEPSLATE_RUBY_ORE.get());
+    //private static final List<ItemLike> RUBY_SMELTABLES = List.of(ModItems.RUBY.get(),
+   //         ModBlocks.RUBY_ORE.get(), ModBlocks.DEEPSLATE_RUBY_ORE.get());
 
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
@@ -24,8 +24,23 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput pRecipeOutput) {
-        oreSmelting(pRecipeOutput, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY.get(), 0.25f, 200, "ruby");
-        oreBlasting(pRecipeOutput, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY.get(), 0.25f, 100, "ruby");
+        //oreSmelting(pRecipeOutput, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY.get(), 0.25f, 200, "ruby");
+        //oreBlasting(pRecipeOutput, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY.get(), 0.25f, 100, "ruby");
+
+        /*
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.CHARCOAL, 9)
+                .requires(ModItems.CHARCOAL_BLOCK_ITEM.get())
+                .unlockedBy(getHasName(Items.CHARCOAL), has(Items.CHARCOAL))
+                .save(pRecipeOutput);
+         */
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CHARCOAL_BLOCK_ITEM.get())
+                .pattern("CCC")
+                .pattern("CCC")
+                .pattern("CCC")
+                .define('C', Items.CHARCOAL)
+                .unlockedBy(getHasName(Items.CHARCOAL), has(Items.CHARCOAL)) //When recipe shows in recipe book
+                .save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RUBY_BLOCK.get())
                 .pattern("RRR")
@@ -121,6 +136,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("D D")
                 .pattern("DDD")
                 .define('D', Blocks.DIRT)
+                .unlockedBy(getHasName(Blocks.DIRT), has(Blocks.DIRT))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Blocks.DIRT, 1)
+                .pattern("D")
+                .pattern("D")
+                .define('D', ModBlocks.DIRT_SLAB.get())
                 .unlockedBy(getHasName(Blocks.DIRT), has(Blocks.DIRT))
                 .save(pRecipeOutput);
         //endregion
