@@ -1,5 +1,7 @@
 package com.evanskistudios.raccoonmayhem;
 
+import com.evanskistudios.raccoonmayhem.fluids.ModFluidTypes;
+import com.evanskistudios.raccoonmayhem.fluids.ModFluids;
 import com.evanskistudios.raccoonmayhem.vanillaOverwrites.VanillaOverrides;
 import com.evanskistudios.raccoonmayhem.blocks.ModBlocks;
 import com.evanskistudios.raccoonmayhem.items.ModItems;

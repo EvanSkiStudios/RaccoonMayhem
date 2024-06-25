@@ -2,6 +2,7 @@ package com.evanskistudios.raccoonmayhem.dataGen;
 
 import com.evanskistudios.raccoonmayhem.RaccoonMayhem;
 import com.evanskistudios.raccoonmayhem.blocks.ModBlocks;
+import com.evanskistudios.raccoonmayhem.fluids.ModFluids;
 import com.evanskistudios.raccoonmayhem.utils.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
