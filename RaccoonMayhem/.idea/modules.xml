@@ -4,8 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RaccoonMayhem.main.iml" filepath="$PROJECT_DIR$/.idea/modules/RaccoonMayhem.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RaccoonMayhem.test.iml" filepath="$PROJECT_DIR$/.idea/modules/RaccoonMayhem.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.evanskistudios.raccoonmayhem.RaccoonMayhem.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.evanskistudios.raccoonmayhem.RaccoonMayhem.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.evanskistudios.raccoonmayhem.RaccoonMayhem.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.evanskistudios.raccoonmayhem.RaccoonMayhem.test.iml" />
     </modules>
   </component>
 </project>

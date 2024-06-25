@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "raccoon-mayhem",
+	"version": "${version}",
+	"name": "Raccoon Mayhem",
+	"description": "Raccoon Mayhem!",
+	"authors": [
+		"Evanski"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/raccoon-mayhem/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.evanskistudios.rm.RaccoonMayhem"
+		],
+		"client": [
+			"me.evanskistudios.rm.RaccoonMayhemClient"
+		],
+		"fabric-datagen": [
+			"me.evanskistudios.rm.RaccoonMayhemDataGenerator"
+		]
+	},
+	"mixins": [
+		"raccoon-mayhem.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

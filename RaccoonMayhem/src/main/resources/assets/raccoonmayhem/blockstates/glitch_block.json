@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "": [ 
-		{"model": "raccoonmayhem:block/glitch_block"},{"model": "raccoonmayhem:block/glitchblock/glitch_block1"},{"model": "raccoonmayhem:block/glitchblock/glitch_block2"}
-	]
-  }
-}

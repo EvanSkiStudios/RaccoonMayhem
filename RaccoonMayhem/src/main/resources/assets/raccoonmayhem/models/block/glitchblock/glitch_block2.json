@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "raccoonmayhem:block/glitchblock/debug3",
-	"bush": "raccoonmayhem:block/glitchblock/debug1",
-	"dark_bush": "raccoonmayhem:block/glitchblock/debug2"
-  }
-}
