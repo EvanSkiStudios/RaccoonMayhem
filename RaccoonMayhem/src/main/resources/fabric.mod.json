@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "raccoon-mayhem",
+	"id": "raccoonmayhem",
 	"version": "${version}",
 	"name": "Raccoon Mayhem",
 	"description": "Raccoon Mayhem!",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "All Rights Reserved",
-	"icon": "assets/raccoon-mayhem/icon.png",
+	"icon": "assets/raccoonmayhem/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"raccoon-mayhem.mixins.json"
+		"raccoonmayhem.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",

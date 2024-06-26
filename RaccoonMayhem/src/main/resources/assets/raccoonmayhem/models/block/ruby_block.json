@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "raccoonmayhem:block/ruby_block"
+  }
+}
