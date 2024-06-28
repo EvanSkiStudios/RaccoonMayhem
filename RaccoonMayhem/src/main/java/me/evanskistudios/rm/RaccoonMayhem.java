@@ -1,5 +1,6 @@
 package me.evanskistudios.rm;
 
+import me.evanskistudios.rm.block.ModBlocks;
 import me.evanskistudios.rm.item.ModItemGroups;
 import me.evanskistudios.rm.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -16,6 +17,9 @@ public class RaccoonMayhem implements ModInitializer {
 		LOGGER.info("Raccoon Mayhem Initializing!");
 
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
 	}
 }

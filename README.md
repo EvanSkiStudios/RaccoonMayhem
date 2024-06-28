@@ -6,9 +6,9 @@ This is mainly made for my friends and I to play with, if you see features simil
 Raccoon Mayhem is written and maintained by Evanski. It is
 released as [All Rights Reserved](LICENSE).
   
-Minecraft Version: 1.20.4  
-Forge Version: 49.0.31  
-The version of Forge and Minecraft are picked with the use of Optifine in mind  
+Minecraft Version: 1.20.6  
+Fabric Loader Version: 0.15.11
+Fabric-API Version:  0.100.4+1.20.6
   
 The use of the mojang mappings is for development purposes only,  
 and are remapped prior to distribution in compliance with the following EULAs  
